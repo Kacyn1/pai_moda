@@ -60,7 +60,7 @@ img {
     vertical-align: middle;
     background-color: red;
 }
-.collection:hover img {
+.collection:hover img, .slide:hover img {
     opacity: 1;
 	-webkit-animation: flash 1.5s;
 	animation: flash 1.5s;
@@ -81,4 +81,52 @@ img {
 		opacity: 1;
 	}
 }
+.zdj{
+    margin-left: 400px;
+}
+ .slide{
+     float: left;
+     width: 250px;
+     height: 500px;
+     margin: 5px;
+ }
+ .slide img{
+     height: 300px;
+     width: 250px;
+ }
+ .slide h3{
+     text-align: center;
+     font-size: 11px;
+     color: gray;
+ }
+ .slide h1{
+     text-align: center;
+     font-size: 22px;
+     color: black;
+
+ }
+ .slide h1:hover{
+     color: orangered;
+ }
+ .slide h2{
+     text-align: center;
+    color: orangered;
+    font-size: 16px;
+ }
+.orange_line{
+    margin-left: 915px;
+    border-top: orangered solid 1px;
+    width:30px
+}
+.top h3{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(70, 66, 65);
+}
+
+
+
+
+
+
 
